@@ -1,0 +1,147 @@
+body {
+font-family: Helvetica;    
+}
+
+h1{
+    background-color: rgb(240, 239, 239);
+color: #f01;
+}
+
+h2{
+    background-color: #22e8dc;
+color: rgb(160, 238, 179);
+}
+p{
+  /*  background-color: #000;*/
+color: rgb(34, 182, 66);
+}
+a{
+    background-color: yellowgreen;
+color: black;
+}
+
+/* LA FORMA CORRECTA EN LA CUAL ENLAZAS UN ID EN CSS ES USANDO EL #*/
+#contenedor-uno {
+    background-color: #09a;
+}
+
+
+/*PARA PODER COMPARTIR ESTILOS DEBEMOS USAR CLASES "CLASS"*/
+
+/*PARA PODER ACCEDER A UN ELEMENTO QUE TIENE UN CALSS USAMOS EL . */
+.contenedor-principal{
+    background-color: violet;
+    padding : 15px;
+}
+
+.btn-ingresar {
+    background-color: rgb(11, 172, 221);
+    color:#fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+/*SEPAN CUANDO SE YSA CLASE SE PUEDEN COMPARTIR ESTILOS*/
+.btn-registro {
+   /* background-color: rgb(15, 72, 228);
+    color:#fff;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;*/
+    font-size: 25px;
+    background-color: red;
+}
+
+.contenedor-form {
+    /* border que cubra */
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+  }
+  
+  .contenedor-interno-form {
+    padding: 20px;
+    /* left: izquierda */
+    /* center: centro */
+    /* right: derecha */
+    /* esto lo de hace de forma horizontal */
+    text-align: center;
+  }
+  
+  .titulo-form {
+    color: rgb(14, 139, 255);
+    background-color: #fff;
+  }
+  
+  .input-form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+  }
+  
+  /* retos para el profe 
+  quiero que el iput del codigo 
+  mida 100px */
+  
+  .input-codigo {
+    width: 100px;
+  }
+  
+  .input-numero {
+    width: 275px;
+  }
+  
+  /* reto para ustedes denle estilos
+  al boton */
+  
+  .btn-crear-usuario {
+    background-color: rgb(248, 156, 35);
+    color: #000;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+  }
+
+  /*PSEUDOCLASES*/
+  /*LOS ELEMENTOS TIENEN PROPIEDADES INTERNAR POR EJEMPLO HOVER*/
+  /*HOVER: ES ES LA PROPIEDAD QUE DETECTA CUANDO EL MOUSE ESTA SOBRE EL ELEMENTO */
+
+  .btn-crear-usuario:hover {
+    background-color: rgb(13, 224, 13);
+  }
+
+  .btn-ingresar:hover {
+      background-color: #f01;
+      color: black ;
+    /*quita el subrayado*/
+    text-decoration: none;
+    padding: 50px;
+    }
+
+
+    /*elementos que tienen pseudoclases
+    link
+    visited
+    hover
+    active
+    
+    */
+
+    /*div:hover{
+        background-color: red;
+    }
+*/
+
+.contenedor-interno-form h1{
+    border: 3px solid black;
+}
+
+.contenedor-interno-form p{
+    border: #22e8dc;
+}
+
+/*first-child*/
+/*busca el primer elemento*/
+input:first-of-type {
+    color: #09a;
+}
