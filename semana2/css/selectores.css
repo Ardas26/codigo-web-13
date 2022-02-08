@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+.contenedor p {
+    color: red;
+}
+.contenedor-dos {
+    color: blue ;
+}
+.contenedor-tres a img {
+    border: 2px solid rgb(27, 117, 235);
+  }
+  .menu-navegacion {
+      margin: 20px;
+  }
+
+  /* ul > li {
+  border: 2px solid rgb(0, 255, 170);
+} */
+.link-navegacion {
+    border: 3px solid rgb(0, 255, 170);
+  }
+  input[type="email"] {
+    background-color: brown;
+  }
+  input[type="text"] {
+    color: rgb(0, 255, 170);
+  }
+  
+  input[type="password"] {
+    color: rgb(0, 255, 170);
+  }
